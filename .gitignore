@@ -1,3 +1,8 @@
+# Personal additions
+nba_scripts/mvp_venv
+nba_scripts/data/
+
+
 # Logs
 logs
 *.log
