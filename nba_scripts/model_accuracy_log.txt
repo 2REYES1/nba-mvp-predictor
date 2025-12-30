@@ -11,3 +11,74 @@ Root Mean Squared Error (RMSE): 0.0540
 R-squared Score (R2): 0.0922
 =========================================
 
+
+=========================================
+NBA MVP MODEL REPORT: 2025-12-30 13:52:57
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['PTS', 'REB', 'AST', 'STL', 'BLK', 'FG_PCT', 'W_PCT']
+Other Comments: Filtered out players that did not play at least 65 games in the season
+-----------------------------------------
+Mean Absolute Error (MAE): 0.0417
+Mean Squared Error (MSE):  0.0068
+Root Mean Squared Error (RMSE): 0.0823
+R-squared Score (R2): 0.0987
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2025-12-30 14:07:37
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['PTS', 'REB', 'AST', 'STL', 'BLK', 'FG_PCT', 'W_PCT', 'PLUS_MINUS', 'NBA_FANTASY_PTS']
+Other Comments: Filtered out players who did not have a W_PCT (win percent) of .6 or greater.
+-----------------------------------------
+Mean Absolute Error (MAE): 0.0984
+Mean Squared Error (MSE):  0.0240
+Root Mean Squared Error (RMSE): 0.1548
+R-squared Score (R2): 0.2690
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2025-12-30 14:16:45
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['DD2_RANK', 'TD3_RANK', 'W_PCT', 'PLUS_MINUS', 'NBA_FANTASY_PTS']
+Other Comments: Adjusted the features to used the Double-Double Rank (DD2_RANK) and Triple-Double Rank (TD3_RANK) instead of regular averages.
+-----------------------------------------
+Mean Absolute Error (MAE): 0.0808
+Mean Squared Error (MSE):  0.0174
+Root Mean Squared Error (RMSE): 0.1318
+R-squared Score (R2): 0.4700
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2025-12-30 14:33:17
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['DD2_RANK', 'TD3_RANK', 'W_PCT', 'PLUS_MINUS', 'NBA_FANTASY_PTS']
+Other Comments: W_PCT >= .400. GP >= 60
+-----------------------------------------
+Mean Absolute Error (MAE): 0.0415
+Mean Squared Error (MSE):  0.0068
+Root Mean Squared Error (RMSE): 0.0825
+R-squared Score (R2): 0.2136
+=========================================
+
+
+
+=========================================
+NBA MVP MODEL REPORT: 2025-12-30 14:35:27
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['DD2_RANK', 'TD3_RANK', 'W_PCT', 'PLUS_MINUS', 'NBA_FANTASY_PTS']
+Other Comments: W_PCT >= .600. GP >= 65
+-----------------------------------------
+Mean Absolute Error (MAE): 0.0808
+Mean Squared Error (MSE):  0.0174
+Root Mean Squared Error (RMSE): 0.1318
+R-squared Score (R2): 0.4700
+=========================================
+
