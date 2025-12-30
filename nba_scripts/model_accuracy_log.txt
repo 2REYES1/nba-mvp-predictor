@@ -1,0 +1,13 @@
+=========================================
+NBA MVP MODEL REPORT: 2025-12-30 13:42:43
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['PTS', 'REB', 'AST', 'STL', 'BLK', 'FG_PCT', 'W_PCT']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 0.0171
+Mean Squared Error (MSE):  0.0029
+Root Mean Squared Error (RMSE): 0.0540
+R-squared Score (R2): 0.0922
+=========================================
+
