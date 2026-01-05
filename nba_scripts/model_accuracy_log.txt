@@ -96,3 +96,75 @@ Root Mean Squared Error (RMSE): 0.1154
 R-squared Score (R2): 0.5936
 =========================================
 
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-04 23:31:47
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['DD2_RANK', 'TD3_RANK', 'W_PCT', 'PLUS_MINUS', 'NBA_FANTASY_PTS', 'FGM_RANK', 'WNBA_FANTASY_PTS']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 0.3108
+Mean Squared Error (MSE):  0.1260
+Root Mean Squared Error (RMSE): 0.3549
+R-squared Score (R2): 0.0166
+=========================================
+
+
+
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-04 23:36:09
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['DD2_RANK', 'TD3_RANK', 'FGM_RANK']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 0.2202
+Mean Squared Error (MSE):  0.0712
+Root Mean Squared Error (RMSE): 0.2669
+R-squared Score (R2): 0.4438
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-04 23:38:41
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['DD2_RANK', 'TD3_RANK', 'FGM_RANK']
+Other Comments: adjusted the errors to be based off Ranks not Shares.
+-----------------------------------------
+Mean Absolute Error (MAE): 1.0000
+Mean Squared Error (MSE):  1.3333
+Root Mean Squared Error (RMSE): 1.1547
+R-squared Score (R2): 0.5429
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-05 00:37:04
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['DD2_RANK', 'TD3_RANK', 'FGM_RANK', 'W_PCT_RANK', 'PTS_RANK', 'NBA_FANTASY_PTS_RANK']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 1.3333
+Mean Squared Error (MSE):  4.3333
+Root Mean Squared Error (RMSE): 2.0817
+R-squared Score (R2): -0.4857
+=========================================
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-05 00:39:21
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'W_PCT_RANK', 'NBA_FANTASY_PTS_RANK']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 0.6667
+Mean Squared Error (MSE):  0.6667
+Root Mean Squared Error (RMSE): 0.8165
+R-squared Score (R2): 0.7714
+=========================================
+
