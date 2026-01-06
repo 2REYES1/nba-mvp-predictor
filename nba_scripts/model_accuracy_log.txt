@@ -374,22 +374,6 @@ R-squared Score (R2): 0.5529
 
 
 =========================================
-NBA MVP MODEL REPORT: 2026-01-06 01:49:44
-=========================================
-Model Architecture: Linear Regression
-Features Used: ['TD3_RANK', 'W_PCT_RANK', 'NBA_FANTASY_PTS_RANK']
-Test Season: 2022-23
-All Seasons: ['2020-21', '2021-22', '2022-23']
-Other Comments: 
------------------------------------------
-Mean Absolute Error (MAE): 2.5000
-Mean Squared Error (MSE):  9.5000
-Root Mean Squared Error (RMSE): 3.0822
-R-squared Score (R2): 0.5529
-=========================================
-
-
-=========================================
 NBA MVP MODEL REPORT: 2026-01-06 01:51:42
 =========================================
 Model Architecture: Linear Regression
@@ -402,5 +386,220 @@ Mean Absolute Error (MAE): 2.5000
 Mean Squared Error (MSE):  9.5000
 Root Mean Squared Error (RMSE): 3.0822
 R-squared Score (R2): 0.5529
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:09:53
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'W_PCT_RANK', 'NBA_FANTASY_PTS_RANK']
+Test Season: 2022-23
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 2.5000
+Mean Squared Error (MSE):  9.5000
+Root Mean Squared Error (RMSE): 3.0822
+R-squared Score (R2): 0.5529
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:15:19
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'W_PCT_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK', 'FGM_RANK']
+Test Season: 2022-23
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 2.6250
+Mean Squared Error (MSE):  10.7500
+Root Mean Squared Error (RMSE): 3.2787
+R-squared Score (R2): 0.4941
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:16:13
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['W_PCT_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK', 'FGM_RANK']
+Test Season: 2022-23
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 2.6250
+Mean Squared Error (MSE):  11.0000
+Root Mean Squared Error (RMSE): 3.3166
+R-squared Score (R2): 0.4824
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:17:07
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'W_PCT_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK']
+Test Season: 2022-23
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 2.8750
+Mean Squared Error (MSE):  11.2500
+Root Mean Squared Error (RMSE): 3.3541
+R-squared Score (R2): 0.4706
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:17:23
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK']
+Test Season: 2022-23
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 2.8750
+Mean Squared Error (MSE):  11.2500
+Root Mean Squared Error (RMSE): 3.3541
+R-squared Score (R2): 0.4706
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:18:08
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'W_PCT_RANK', 'NBA_FANTASY_PTS_RANK']
+Test Season: 2022-23
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 2.5000
+Mean Squared Error (MSE):  9.5000
+Root Mean Squared Error (RMSE): 3.0822
+R-squared Score (R2): 0.5529
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:19:45
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'W_PCT_RANK', 'NBA_FANTASY_PTS_RANK']
+Test Season: 2022-23
+Training Window; ['2020-21', '2021-22']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 2.5000
+Mean Squared Error (MSE):  9.5000
+Root Mean Squared Error (RMSE): 3.0822
+R-squared Score (R2): 0.5529
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:24:32
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'W_PCT_RANK', 'NBA_FANTASY_PTS_RANK']
+Test Season: 2022-23
+Training Window; ['2020-21', '2021-22']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: Filtered out the top 50 fantasy performers
+-----------------------------------------
+Mean Absolute Error (MAE): 1.1111
+Mean Squared Error (MSE):  1.5556
+Root Mean Squared Error (RMSE): 1.2472
+R-squared Score (R2): 0.7667
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:25:22
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK']
+Test Season: 2022-23
+Training Window; ['2020-21', '2021-22']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 0.8889
+Mean Squared Error (MSE):  1.3333
+Root Mean Squared Error (RMSE): 1.1547
+R-squared Score (R2): 0.8000
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:25:48
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['W_PCT_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK', 'FGM_RANK']
+Test Season: 2022-23
+Training Window; ['2020-21', '2021-22']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 1.1111
+Mean Squared Error (MSE):  2.0000
+Root Mean Squared Error (RMSE): 1.4142
+R-squared Score (R2): 0.7000
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:26:29
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'W_PCT_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK']
+Test Season: 2022-23
+Training Window; ['2020-21', '2021-22']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 1.1111
+Mean Squared Error (MSE):  1.7778
+Root Mean Squared Error (RMSE): 1.3333
+R-squared Score (R2): 0.7333
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:27:00
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'W_PCT_RANK', 'NBA_FANTASY_PTS_RANK', 'DD2_RANK']
+Test Season: 2022-23
+Training Window; ['2020-21', '2021-22']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 1.1111
+Mean Squared Error (MSE):  1.5556
+Root Mean Squared Error (RMSE): 1.2472
+R-squared Score (R2): 0.7667
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:27:15
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK']
+Test Season: 2022-23
+Training Window; ['2020-21', '2021-22']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 0.8889
+Mean Squared Error (MSE):  1.3333
+Root Mean Squared Error (RMSE): 1.1547
+R-squared Score (R2): 0.8000
 =========================================
 

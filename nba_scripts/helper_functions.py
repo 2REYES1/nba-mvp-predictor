@@ -19,3 +19,12 @@ def get_season_stats(curr_season):
 def clean_name(name):
     return ''.join(c for c in unicodedata.normalize('NFD', name)
                   if unicodedata.category(c) != 'Mn')
+
+
+def filter_top_50_fantasy_performers(df, top_n=50):
+    """
+    Filters the dataframe to keep only the top N players per season 
+    based on NBA Fantasy Points Rank.
+    """
+    filtered_df = df[df['NBA_FANTASY_PTS_RANK'] <= top_n].copy()
+    return filtered_df
