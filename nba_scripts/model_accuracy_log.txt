@@ -603,3 +603,122 @@ Root Mean Squared Error (RMSE): 1.1547
 R-squared Score (R2): 0.8000
 =========================================
 
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:28:29
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK']
+Test Season: 2021-22
+Training Window; ['2019-20', '2020-21']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 3.2941
+Mean Squared Error (MSE):  18.0000
+Root Mean Squared Error (RMSE): 4.2426
+R-squared Score (R2): 0.2500
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:29:10
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK']
+Test Season: 2020-21
+Training Window; ['2018-19', '2019-20']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 1.3333
+Mean Squared Error (MSE):  2.3333
+Root Mean Squared Error (RMSE): 1.5275
+R-squared Score (R2): 0.2000
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:31:23
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK', 'FGM_RANK']
+Test Season: 2020-21
+Training Window; ['2018-19', '2019-20']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 1.6667
+Mean Squared Error (MSE):  3.6667
+Root Mean Squared Error (RMSE): 1.9149
+R-squared Score (R2): -0.2571
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:32:06
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK', 'DD2_RANK']
+Test Season: 2020-21
+Training Window; ['2018-19', '2019-20']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 1.3333
+Mean Squared Error (MSE):  4.3333
+Root Mean Squared Error (RMSE): 2.0817
+R-squared Score (R2): -0.4857
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:33:09
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK']
+Test Season: 2020-21
+Training Window; ['2018-19', '2019-20']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 1.3333
+Mean Squared Error (MSE):  3.3333
+Root Mean Squared Error (RMSE): 1.8257
+R-squared Score (R2): -0.1429
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:34:00
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK']
+Test Season: 2020-21
+Training Window; ['2018-19', '2019-20']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 1.3333
+Mean Squared Error (MSE):  2.3333
+Root Mean Squared Error (RMSE): 1.5275
+R-squared Score (R2): 0.2000
+=========================================
+
+
+=========================================
+NBA MVP MODEL REPORT: 2026-01-06 02:34:50
+=========================================
+Model Architecture: Linear Regression
+Features Used: ['TD3_RANK', 'NBA_FANTASY_PTS_RANK', 'WNBA_FANTASY_PTS_RANK']
+Test Season: 2022-23
+Training Window; ['2020-21', '2021-22']
+All Seasons: ['2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23']
+Other Comments: 
+-----------------------------------------
+Mean Absolute Error (MAE): 0.8889
+Mean Squared Error (MSE):  1.3333
+Root Mean Squared Error (RMSE): 1.1547
+R-squared Score (R2): 0.8000
+=========================================
+
